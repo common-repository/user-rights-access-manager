@@ -1,0 +1,694 @@
+.uram_Permission_main table {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.uram_Permission_main table td, .uram_Permission_main table th {
+    padding: 7px 10px 0px 10px;
+    vertical-align: top;
+}
+
+.uram_Permission_main table th {
+    width: 20%;
+}
+
+.uram_Permission_main table td .sub_grp {
+    display: inline-block;
+    width: 150px;
+    position:  relative;
+    padding: 0 5px;
+}
+
+
+.uram_Permission_main table td .sub_grp:after, .uram_Permission_main table th .sub_grp:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.uram_Permission_main table th .sub_grp {
+    display: inline-block;
+    position:  relative;
+    padding: 0 5px;
+}
+
+
+
+.uram_Permission_main table th .sub_grp input, .uram_Permission_main table td .sub_grp input {
+    position:  absolute;
+    left: 0;
+    top: 5px;
+}
+
+.uram_Permission_main table th .sub_grp label, .uram_Permission_main table td .sub_grp label {
+    padding-left: 20px;
+    margin-bottom: 12px;
+    white-space: initial;
+}
+
+.uram_Permission_main {
+    padding: 10px;
+}
+.uram_post_type .posttype_grp {
+    display: inline-block;
+    width: 200px;
+    position:  relative;
+    margin-bottom: 20px;
+}
+
+.uram_post_type .posttype_grp input {
+    /*position:  absolute;
+    left: 0;
+    top: 0;
+    margin-top: 1px;*/
+}
+
+.uram_post_type .posttype_grp label {
+    padding-left: 46px;
+	margin-bottom: 0;
+}
+
+.uram_post_type {
+    padding: 10px;
+}
+
+form#posttype_form {}
+
+.uram_post_type input.button.button-primary[name="posttype_submit"] {
+    display: block;
+}
+
+/* 19-4-18 by kaushal */
+table.user_list_res_tbl {
+    max-width: 1200px;
+	width: 100%;
+}
+
+table.user_list_res_tbl td {
+    text-align: center;
+}
+.res_select_message {
+    border: 1px solid #ccc;
+    text-align: left;
+    font-weight: 500;
+}
+
+.res_select_message p {
+    
+    margin-left: 10px;
+}
+
+
+/* according */
+.uram_Permission_main #accordion {
+	list-style: none;
+	padding: 0 0 0 0;
+	width: 100%;
+    margin-left: 1px;
+}
+.uram_Permission_main #accordion div {
+	display: block;
+	background-color: #fff;
+	font-weight: bold;
+	margin: 1px;
+	list-style: circle;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+.uram_Permission_main #accordion ul {
+	list-style: none;
+	padding: 0 0 0 0;
+}
+.uram_Permission_main #accordion ul{
+	display: none;
+}
+.uram_Permission_main #accordion ul li {
+	font-weight: normal;
+	cursor: auto;
+	background-color: #fff;
+	padding: 0 0 0 7px;
+}
+.uram_Permission_main #accordion a {
+	text-decoration: none;
+}
+.uram_Permission_main #accordion a:hover {
+	text-decoration: underline;
+}
+.uram_Permission_main .admin_bar_hide, .uram_Permission_main  .dashboard {
+  display: inline-block;
+    min-width: 300px;
+    margin-left: 2px;
+    width: 48%;
+}
+
+
+.uram_Permission_main #accordion > li > .sub_grp {
+    padding: 15px 20px;
+    position:  relative;
+    margin: 0 !important;
+	transition: background-color 0.4s;
+	border-radius: 4px;
+}
+
+.uram_Permission_main #accordion label {
+    font-size: 17px;
+    margin-bottom: 0;
+    line-height: 20px;
+	cursor: default;
+}
+
+
+ul#inside_accordion .sub_grp {
+    margin:  0;
+    display: block;
+    position:  relative;
+    background-color: transparent !important;
+}
+
+.uram_Permission_main #accordion > li {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position:  relative;
+	border-radius: 4px;
+}
+
+.uram_Permission_main #accordion ul#inside_accordion label {
+    color: #666666;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.uram_Permission_main ul#accordion ul li {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+ul#inside_accordion li {
+    display: inline-block;
+    width: 24%;
+    background-color: transparent;
+}
+
+.uram_Permission_main #accordion input[type="checkbox"] {
+    top: 2px;
+}
+/*
+.uram_Permission_main #accordion > li.res_accordion_li > .sub_grp:after {content: "\f140"; display: inline-block;position:  absolute;font-family: Dashicons;right: 30px;font-size: 24px;top: 16px;}
+.uram_Permission_main #accordion > li.res_accordion_li.menu_active > .sub_grp:after {
+    content: "\f142";
+}
+*/
+.uram_Permission_main #accordion > li.res_accordion_li > .sub_grp > input {
+    position:  absolute;
+    right: 30px;
+    top: 16px;
+}
+
+
+.uram_Permission_main #accordion > li.res_accordion_li.menu_active {
+    background-color: #fff;
+    border-color: #0073aa;
+}
+.uram_Permission_main #accordion > li.res_accordion_li.menu_active > .sub_grp > label {
+	color: #fff;
+}
+.uram_Permission_main #accordion > li.res_accordion_li.menu_active > .sub_grp {
+	background-color: #0073aa;
+	border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.uram_Permission_main .select_user_role_wise form {
+    display: inline-block;
+    margin-right: 60px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.uram_Permission_main .select_user_role_wise form label {
+    margin: 0;
+    margin-right: 5px;
+}
+.uram_Permission_main + h1 {
+    padding: 0 10px;
+}
+.uram_Permission_main #accordion > li.res_accordion_li > .sub_grp > label > span > span {
+    background-color: #006699;
+    color: #fff;
+    padding: 0 7px;
+    margin-left: 6px;
+    border-radius: 7px;
+    line-height: 21px;
+}
+.uram_Permission_main #inside_accordion > li > .sub_grp > label > span > span {
+	background-color: #006699;
+    color: #fff;
+    padding: 0 7px;
+    margin-left: 6px;
+    border-radius: 7px;
+    line-height: 21px;
+}
+
+.wp_restrict .tabpanel_restrict li {
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    background: #e5e5e5;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 5px 20px;
+    margin-left: 0.5em;
+    margin-bottom: -1px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.wp_restrict .tabpanel_restrict {
+    display: block;
+    border-bottom: 1px solid #ccc;
+	max-width: 1200px;
+}
+
+.wp_restrict .tabpanel_restrict li.active {
+    border-bottom: 1px solid #f1f1f1;
+    background: #f1f1f1;
+    color: #000;
+}
+
+.wp_restrict .user_restrict, .wp_restrict .role_restrict {
+	display: none;
+}
+.wp_restrict .user_restrict.active, .wp_restrict .role_restrict.active {
+    display: block;
+}
+
+.wp_restrict table.user_list_res_tbl, .wp_restrict table.user_list_res_tbl th, .wp_restrict table.user_list_res_tbl td {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    text-align: center;
+}
+.wp_restrict table.user_list_res_tbl, .wp_restrict table.user_list_res_tbl th, .wp_restrict table.user_list_res_tbl td {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.wp_restrict table.user_list_res_tbl th {
+    font-size: 16px;
+}
+
+.wp_restrict table.user_list_res_tbl th, .wp_restrict table.user_list_res_tbl td {
+    padding: 10px 10px;
+}
+
+.wp_restrict table.user_list_res_tbl tr th:nth-child(3) {
+    min-width: 50%;
+}
+
+.wp_restrict table.user_list_res_tbl tbody tr th:nth-child(1), .wp_restrict table.user_list_res_tbl tbody tr th:nth-child(2) {
+    width: 25%;
+}
+
+.wp_restrict .user_restrict a.res_add_button_cls, .wp_restrict .role_restrict a.res_add_button_cls {
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+    font-size: 13px;
+    padding: 3px 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    display: inline-block;
+	vertical-align: text-bottom;
+}
+
+.wp_restrict .user_restrict h1, .wp_restrict .role_restrict h1 {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.wp_restrict .user_restrict a.res_add_button_cls:hover, .wp_restrict .role_restrict a.res_add_button_cls:hover {
+    background: #008ec2;
+    border-color: #006799;
+    color: #fff;
+}
+.wp_restrict .user_restrict a.res_add_button_cls:active, .wp_restrict .role_restrict a.res_add_button_cls:active {
+    background: #0073aa;
+    border-color: #006799;
+    box-shadow: inset 0 2px 0 #006799;
+}
+.uram_post_type .button_handle input.button.button-primary[name="posttype_submit"] {
+    display: inline-block;
+}
+
+
+/* 23 Apr 2018 Switch CSS */
+ul#inside_accordion .sub_grp:hover {
+    background-color: #e5e5e5 !important;
+    border-radius: 3px;
+}
+
+.uram_Permission_main #accordion > li.res_accordion_li > .sub_grp > label > input + span {
+    width: 50px;
+    height: 26px;
+    display: inline-block;
+    position:  absolute;
+    background-color: #fff;
+    border-radius: 35px;
+    right: 30px;
+    top: 13px;
+    cursor: pointer;
+    border: 1px solid #0073aa;
+}
+
+.uram_Permission_main #accordion > li.res_accordion_li > .sub_grp > label > input + span:before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    background-color: #0073aa;
+    display: inline-block;
+    border-radius: 50%;
+    position:  absolute;
+    top: 2px;
+    left: 2px;
+	-webkit-transition: .4s;
+    transition: .4s;
+}
+
+.uram_Permission_main #accordion > li.res_accordion_li > .sub_grp > label > input:checked + span {
+    background-color: #fff;
+}
+.uram_Permission_main #accordion > li.res_accordion_li > .sub_grp > label > input:checked + span:before {
+	-webkit-transform: translateX(24px);
+    -ms-transform: translateX(24px);
+    transform: translateX(24px);
+}
+.uram_Permission_main #accordion > li.res_accordion_li > .sub_grp > label > input, .uram_Permission_main #inside_accordion > li > .sub_grp > label > input, .uram_Permission_main .admin_bar_hide input[type="checkbox"], .uram_Permission_main .dashboard input[type="checkbox"], .uram_Permission_main .uram_post_type .posttype_grp input {
+    display: none;
+}
+.uram_Permission_main #inside_accordion > li > .sub_grp > label > input + span {
+	width: 40px;
+	height: 20px;
+	display: inline-block;
+    position:  absolute;
+    background-color: #ccc;
+    border-radius: 35px;
+	top: 16px;
+	right: 20px;
+	cursor: pointer;
+}
+.uram_Permission_main #inside_accordion > li > .sub_grp > label > input + span:before {
+	content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 50%;
+    position:  absolute;
+    top: 2px;
+    left: 3px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.uram_Permission_main #inside_accordion > li > .sub_grp > label > input:checked + span:before {
+	-webkit-transform: translateX(19px);
+    -ms-transform: translateX(19px);
+    transform: translateX(19px);
+}
+.uram_Permission_main #inside_accordion > li > .sub_grp > label > input:checked + span, .uram_Permission_main .admin_bar_hide input[type="checkbox"]:checked + span, .uram_Permission_main .dashboard input[type="checkbox"]:checked + span, .uram_Permission_main .uram_post_type .posttype_grp input[type="checkbox"]:checked + span {
+	background-color: #0073aa;
+}
+
+.uram_Permission_main .admin_bar_hide input[type="checkbox"] + span, .uram_Permission_main .dashboard input[type="checkbox"] + span, .uram_Permission_main .uram_post_type .posttype_grp input[type="checkbox"] + span {
+    width: 50px;
+    height: 26px;
+    display: inline-block;
+    position:  relative;
+    background-color: #fff;
+    border-radius: 35px;
+    cursor: pointer;
+    left: 0;
+    border: 1px solid #0073aa;
+    float: right;
+    margin-top: -6px;
+}
+.uram_Permission_main .admin_bar_hide input[type="checkbox"] + span:before, .uram_Permission_main .dashboard input[type="checkbox"] + span:before, .uram_Permission_main .uram_post_type .posttype_grp input[type="checkbox"] + span:before {
+	content: "";
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    background-color: #0073aa;
+    border-radius: 50%;
+    position:  absolute;
+    top: 2px;
+    left: 3px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.uram_Permission_main .admin_bar_hide input[type="checkbox"]:checked + span:before, .uram_Permission_main .dashboard input[type="checkbox"]:checked + span:before, .uram_Permission_main .uram_post_type .posttype_grp input[type="checkbox"]:checked + span:before {
+	-webkit-transform: translateX(21px);
+    -ms-transform: translateX(21px);
+    transform: translateX(21px);
+    background: #fff;
+}
+.uram_Permission_main .admin_bar_hide label, .uram_Permission_main .dashboard label {
+    display: block;
+    position: relative;
+    padding-left: 0px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 13px;
+}
+
+.uram_Permission_main .uram_post_type .posttype_grp input[type="checkbox"] + span {
+	width: 40px;
+	height: 18px;
+	display: inline-block;
+    position:  absolute;
+    background-color: #ccc;
+    border-radius: 35px;
+	cursor: pointer;
+	left: 0;
+	top: 3px;
+}
+.uram_Permission_main .uram_post_type .posttype_grp input[type="checkbox"] + span:before {
+	content: "";
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 50%;
+    position:  absolute;
+    top: 2px;
+    left: 3px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.uram_Permission_main .uram_post_type .posttype_grp input[type="checkbox"]:checked + span:before {
+	-webkit-transform: translateX(21px);
+    -ms-transform: translateX(21px);
+    transform: translateX(21px);
+}
+ul#inside_accordion {
+    padding: 10px;
+}
+ul#inside_accordion .sub_grp label {
+    display: block;
+    cursor: pointer;
+    padding: 15px 20px;
+}
+.role_restrict #res_role_form {
+    position:  relative;
+}
+
+.role_restrict #res_role_form .tablenav-pages {
+    position:  absolute;
+    right: 15px;
+    top: 0;
+}
+
+.role_restrict #res_role_form .tablenav-pages span.pagination-links a, .role_restrict #res_role_form .tablenav-pages span.pagination-links span.current {
+    display: inline-block;
+    width: 28px;
+    text-align: center;
+    height: 28px;
+    line-height: 26px;
+    padding: 0;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    transition: all .4s ease-in-out 0s;
+    color: #000;
+}
+
+.role_restrict #res_role_form .tablenav-pages span.pagination-links a > span {
+   padding: 0;
+   border: none;
+   background: transparent;
+}
+
+.role_restrict #res_role_form .tablenav-pages span.displaying-num {
+    margin-right: 10px;
+}
+
+.role_restrict #res_role_form .tablenav-pages span.pagination-links span.page-numbers.current {
+    background-color: #fff;
+    cursor: default;
+}
+
+.role_restrict #res_role_form .tablenav-pages span.pagination-links a:hover {
+    background: #00a0d2;
+    border-color: #5b9dd9;
+    color: #fff;
+}
+
+.role_restrict #res_role_form .tablenav-pages span.pagination-links a:hover span {
+    color: #fff;
+}
+.uram_Permission_main .select_user_role_wise select {
+        width: 17%;
+	margin-left: 30px;
+}
+
+select#select_role_system {
+    margin-left: 15px;
+}
+
+.uram_Permission_main .select_user_role_wise .select_role_div label {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: right;
+    margin-left: 45px;
+    margin-top: 5px;
+}
+.uram_Permission_main span.update-plugins {
+    display: none;
+}
+
+.uram_Permission_main span.awaiting-mod {
+    display: none;
+}
+.uram_Permission_main ul#inside_accordion li span:before {
+    display: none;
+}
+.uram_Permission_main #accordion ul#inside_accordion label span {
+    color: #666;
+}
+
+.uram_Permission_main .select_role_div {
+        padding: 15px 20px;
+    position: relative;
+    margin: 0px !important;
+    transition: background-color 0.4s;
+    border-radius: 4px;
+    background: #0073aa;
+    text-align: inherit;
+    color: white;
+    border: 0px solid #fff;
+}
+
+.uram_Permission_main hr {
+    border-color: #0073aa;
+    margin: 0px 3px 0px 3px !important;
+    margin-bottom: 18px !important;
+}
+.uram_Permission_main .notification_bar_div {
+   width: 100%;
+    padding: 15px 0px;
+    position: relative;
+    margin: 0 !important;
+    transition: background-color 0.4s;
+    border-radius: 1px;
+    background: #fff;
+    margin-top:15px !important;
+    
+}
+.uram_Permission_main input#res_submit_btn {
+    width: 200px;
+    height: 42px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: none;
+}
+
+.uram_Permission_main a.btn_cancel.button-primary {width: 200px;height: 42px;font-size: 14px;font-weight: 500;text-transform: none;padding-top: 6px;text-align: center;
+text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;}
+
+.uram_Permission_main .button_handle {
+        padding-top: 20px;
+    padding-left: 20px;
+}
+
+.uram_Permission_main .notification_bar_div table {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.toplevel_page_premission_list img {
+    width: 21px;
+    margin-left: 4px;
+}
+.uram_Permission_main h1.wp-heading-inline {
+    text-transform: uppercase;
+    margin: 0px 4px;
+    font-weight: 400;
+}
+
+a.page-title-action.btn_res_add {
+    top: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    box-shadow: 0 1px 0 #ccc !important;
+    margin-right: 0px;
+}
+
+a.page-title-action.btn_res_add:active{
+    top: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    box-shadow: 0 1px 0 #ccc !important;
+    margin-right: 0px;
+}
+.uram_Permission_main h3.metabox_header {
+    background: #0073aa;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border: 5px solid white;
+}
+ul#inside_accordion ul {
+    display: block !important;
+}
+
+.res_home_menu li{
+    background-color: #e4e4e4 !important;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    cursor: default;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 0 5px;
+}
+
+.sub_menu_ul.homemenu_list span.select2.select2-container.select2-container--default {
+    padding: 10px;
+}
+
+.uram_Permission_main ul#accordion ul.select2-selection__rendered li {
+    padding: 7px !important;
+    margin-left:10px !important;
+    background-color: #e4e4e4!important;
+    margin: 5px;
+}
+.uram_Permission_main ul#accordion ul.select2-selection__rendered li.select2-search.select2-search--inline {
+    background-color: transparent !important;
+}

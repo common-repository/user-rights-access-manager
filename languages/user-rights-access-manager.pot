@@ -1,0 +1,215 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: User Rights Access Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-24 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: metabox/dashboard_metabox.php:52
+msgid "Welcome : "
+msgstr ""
+
+#: metabox/dashboard_metabox.php:59
+msgid ""
+"Here you can access site base on your job requirement. Let us know if you "
+"require some additional access to check the site"
+msgstr ""
+
+#: metabox/dashboard_metabox.php:61
+msgid "Thanks"
+msgstr ""
+
+#: inc/registration_hook.php:30
+msgid "First name is required."
+msgstr ""
+
+#: inc/registration_hook.php:35
+msgid "Last name is required."
+msgstr ""
+
+#: inc/registration_hook.php:41
+msgid "Email id is required."
+msgstr ""
+
+#: inc/registration_hook.php:45
+msgid "Invalid Email id."
+msgstr ""
+
+#: inc/registration_hook.php:49
+msgid "Email id already exists."
+msgstr ""
+
+#: inc/registration_hook.php:60
+msgid "Username is required."
+msgstr ""
+
+#: inc/registration_hook.php:65
+msgid "Username is already taken."
+msgstr ""
+
+#: inc/registration_hook.php:72
+msgid "password is required."
+msgstr ""
+
+#: inc/registration_hook.php:76
+msgid "Password required steps"
+msgstr ""
+
+#: inc/registration_hook.php:77
+msgid "at least one lowercase char"
+msgstr ""
+
+#: inc/registration_hook.php:78
+msgid "at least one uppercase char"
+msgstr ""
+
+#: inc/registration_hook.php:79
+msgid "at least one digit"
+msgstr ""
+
+#: inc/registration_hook.php:80
+msgid "at least one special sign of @#-_$%^&+=§!?"
+msgstr ""
+
+#: inc/init.php:40
+msgid "User Restriction Removed"
+msgstr ""
+
+#: inc/init.php:52
+msgid "Role Restriction Removed"
+msgstr ""
+
+#: inc/init.php:198 inc/init.php:202 inc/handle_post.php:6
+#: inc/handle_post.php:65 inc/handle_post.php:76
+msgid "Sorry, you are not allowed to Submit"
+msgstr ""
+
+#: template/res_wp_role_list_wpl_list.php:42
+msgid "Role"
+msgstr ""
+
+#: template/res_wp_role_list_wpl_list.php:179
+#: template/res_wp_list_table.php:194
+msgid "Add Restriction"
+msgstr ""
+
+#: template/res_wp_list_table.php:44
+msgid "User name"
+msgstr ""
+
+#: template/res_wp_list_table.php:45
+msgid "Name"
+msgstr ""
+
+#: template/res_wp_list_table.php:46
+msgid "Email"
+msgstr ""
+
+#: template/res_wp_list_table.php:47
+msgid "User role"
+msgstr ""
+
+#: admin/user_list_admin.php:30
+msgid "Wordpress user rights access management"
+msgstr ""
+
+#: admin/user_list_admin.php:37
+msgid "Permissions has been changed successfully"
+msgstr ""
+
+#: admin/user_list_admin.php:40
+msgid "Restriction has been deleted"
+msgstr ""
+
+#: admin/user_list_admin.php:43
+msgid "Something went wrong"
+msgstr ""
+
+#: admin/user_list_admin.php:63
+msgid "USER"
+msgstr ""
+
+#: admin/user_list_admin.php:64
+msgid "ROLE"
+msgstr ""
+
+#: admin/admin_menu_handle.php:40
+msgid "Meta Boxes"
+msgstr ""
+
+#: admin/admin_menu_handle.php:176
+msgid "Set Permissions"
+msgstr ""
+
+#: admin/admin_menu_handle.php:183
+msgid "Select user to restrict "
+msgstr ""
+
+#: admin/admin_menu_handle.php:185
+msgid "Select User"
+msgstr ""
+
+#: admin/admin_menu_handle.php:214
+msgid "Select role to restrict"
+msgstr ""
+
+#: admin/admin_menu_handle.php:216
+msgid "Select Role"
+msgstr ""
+
+#: admin/admin_menu_handle.php:252
+msgid "Remove notifications admin bar "
+msgstr ""
+
+#: admin/admin_menu_handle.php:261
+msgid "Remove dashboard metaboxes"
+msgstr ""
+
+#: admin/admin_menu_handle.php:349
+msgid "Custom URLs"
+msgstr ""
+
+#: admin/admin_menu_handle.php:363
+msgid "Note :"
+msgstr ""
+
+#: admin/admin_menu_handle.php:364
+msgid "- One URL per line"
+msgstr ""
+
+#: admin/admin_menu_handle.php:365
+msgid "- Do not include http or https or www"
+msgstr ""
+
+#: admin/admin_menu_handle.php:385
+msgid "Set Restriction"
+msgstr ""
+
+#: admin/admin_menu_handle.php:386
+msgid "Cancel"
+msgstr ""
+
+#: class/user_wise_restriction.php:45 class/user_wise_restriction.php:91
+#: class/user_wise_restriction.php:106 class/user_wise_restriction.php:123
+#: class/user_wise_restriction.php:140 class/user_wise_restriction.php:144
+#: class/user_wise_restriction.php:148 class/user_wise_restriction.php:160
+#: class/uram_user_role_restriction_class.php:46
+#: class/uram_user_role_restriction_class.php:63
+#: class/uram_user_role_restriction_class.php:107
+#: class/uram_user_role_restriction_class.php:117
+#: class/uram_user_role_restriction_class.php:133
+#: class/uram_user_role_restriction_class.php:160
+#: class/uram_user_role_restriction_class.php:165
+#: class/uram_user_role_restriction_class.php:170
+#: class/uram_user_role_restriction_class.php:184
+msgid "Sorry, you are not allowed to access this page"
+msgstr ""
